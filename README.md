@@ -1,5 +1,8 @@
+
 # member-management
 
+=======
+>>>>>>> 403d0fa4bc70e449530f2ffaa5b9d8b69fb17459
 # Member Management Service
 
 ## Overview
@@ -8,6 +11,11 @@ The application exposes REST APIs secured with JWT authentication and enforces r
 
 The project includes **integration tests** using Testcontainers to validate real application behavior with a PostgreSQL database.
 
+<<<<<<< HEAD
+=======
+---
+
+>>>>>>> 403d0fa4bc70e449530f2ffaa5b9d8b69fb17459
 ## Tech Stack
 - Java 17
 - Spring Boot
@@ -18,6 +26,12 @@ The project includes **integration tests** using Testcontainers to validate real
 - Testcontainers
 - JUnit 5
 - MockMvc
+<<<<<<< HEAD
+=======
+
+---
+
+>>>>>>> 403d0fa4bc70e449530f2ffaa5b9d8b69fb17459
 ## Features
 - Member CRUD operations
 - JWT-based authentication
@@ -25,6 +39,12 @@ The project includes **integration tests** using Testcontainers to validate real
 - Pagination support for member listing
 - Integration testing with real database
 - Clean separation of main and test configurations
+<<<<<<< HEAD
+=======
+
+---
+
+>>>>>>> 403d0fa4bc70e449530f2ffaa5b9d8b69fb17459
 ## Project Structure
 src
 ├── main
@@ -45,8 +65,16 @@ src
 └── resources
 └── application-test.yml
 
+<<<<<<< HEAD
 > This is a backend-only application. No frontend or assets folder is required.
 
+=======
+
+> This is a backend-only application. No frontend or assets folder is required.
+
+---
+
+>>>>>>> 403d0fa4bc70e449530f2ffaa5b9d8b69fb17459
 ## Security
 - Authentication is handled using JWT tokens.
 - Passwords are stored in encoded (hashed) format.
@@ -54,6 +82,11 @@ src
     - **ADMIN**: Can create members
     - **USER**: Restricted from admin-only operations
 
+<<<<<<< HEAD
+=======
+---
+
+>>>>>>> 403d0fa4bc70e449530f2ffaa5b9d8b69fb17459
 ## Integration Testing
 
 ### Testing Approach
