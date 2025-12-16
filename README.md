@@ -6,8 +6,6 @@ The application exposes REST APIs secured with JWT authentication and enforces r
 
 The project includes **integration tests** using Testcontainers to validate real application behavior with a PostgreSQL database.
 
----
-
 ## Tech Stack
 - Java 17
 - Spring Boot
@@ -18,9 +16,6 @@ The project includes **integration tests** using Testcontainers to validate real
 - Testcontainers
 - JUnit 5
 - MockMvc
-
----
-
 ## Features
 - Member CRUD operations
 - JWT-based authentication
@@ -28,9 +23,6 @@ The project includes **integration tests** using Testcontainers to validate real
 - Pagination support for member listing
 - Integration testing with real database
 - Clean separation of main and test configurations
-
----
-
 ## Project Structure
 src
 ├── main
@@ -51,10 +43,7 @@ src
 └── resources
 └── application-test.yml
 
-
 > This is a backend-only application. No frontend or assets folder is required.
-
----
 
 ## Security
 - Authentication is handled using JWT tokens.
@@ -62,8 +51,6 @@ src
 - Role-based access control:
     - **ADMIN**: Can create members
     - **USER**: Restricted from admin-only operations
-
----
 
 ## Integration Testing
 
